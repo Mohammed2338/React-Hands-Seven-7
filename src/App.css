@@ -1,0 +1,118 @@
+body {
+  background-image: linear-gradient(
+    rgb(23, 218, 218),
+    rgb(201, 106, 122),
+    rgb(218, 201, 137)
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: burlywood;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 10px;
+  border-radius: 5px;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.home {
+  font-weight: bold;
+}
+.table {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+  font-weight: bold;
+}
+.table2 {
+  width: 100vw;
+  height: 250px;
+  text-align: center;
+}
+.heading {
+  background-color: gray;
+  font-size: 30px;
+}
+.btn {
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgb(71, 71, 179);
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.new {
+  background-color: goldenrod;
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 80px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(lightcyan, pink, Cornsilk);
+}
+.child1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.inp {
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: black;
+
+  padding: 5px;
+}
+.new2 {
+  background-color: cornsilk;
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 80px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.submit {
+  width: 150px;
+  height: 30px;
+  background-color: lightblue;
+  border: 2px solid black;
+  border-radius: 30px;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
